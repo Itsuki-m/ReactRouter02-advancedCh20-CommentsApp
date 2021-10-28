@@ -1,3 +1,5 @@
+// props.quotes.はAllQuote.jsから来ている
+
 import { Fragment } from 'react';
 
 import QuoteItem from './QuoteItem';

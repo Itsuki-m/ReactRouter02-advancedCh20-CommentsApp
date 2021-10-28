@@ -11,7 +11,7 @@ const DUMMY_QUOTES = [
 const AllQuotes = () => {
   return (
     // DUMMY_QUOTESをQuoteListにprops.quotesとして送る
-    // ViewFullscreenボタン(QuoteItem.js)押下でQuoteDetail.jsにrouterしたい
+    // ViewFullscreenボタン(QuoteItem.js)押下でQuoteDetail.jsにrouterしたい(QuoteItem.jsで行うこと)
     <QuoteList quotes={DUMMY_QUOTES} />
   );
 };
