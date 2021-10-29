@@ -1,11 +1,11 @@
-// Prompt from react-router-dom automatically watch if we navigate away, and if then a certain condition is met, it will show a warning before it allows us to leave なのでformをユーザが描き始めてまだ送信していないのにページを離れようとするとwarning"情報が失われますがページを離れますか？”みたいなwarningを表示させることができる
+// // Prompt from react-router-dom automatically watch if we navigate away, and if then a certain condition is met, it will show a warning before it allows us to leave なのでformをユーザが描き始めてまだ送信していないのにページを離れようとするとwarning"情報が失われますがページを離れますか？”みたいなwarningを表示させることができる
 
 import { useRef, useState, Fragment } from 'react';
 
 import { Prompt } from 'react-router-dom';
 
-import Card from '../UI/Card';
-import LoadingSpinner from '../UI/LoadingSpinner';
+import Card from '../ui/Card';
+import LoadingSpinner from '../ui/LoadingSpinner';
 import classes from './QuoteForm.module.css';
 
 const QuoteForm = (props) => {
